@@ -1,0 +1,150 @@
+html, body { margin: 0; padding: 0; font-family: Arial, sans-serif, Tahoma; }
+body { background: #fff; }
+.header {
+	height: 70px;
+	background: #000;
+	min-width: 750px;
+}
+
+.header ul {
+	font-size: 0;
+	list-style: none;
+}
+
+.header ul li a {
+	font-size: 14px;
+	color: #fff;
+	float: right;
+	display: block;
+	text-decoration: none;
+	padding: 27px;
+}
+
+.header ul li a:hover {
+	background: #fff;
+	color: #000;
+}
+
+
+
+.logo a {
+	width: 250px;
+	text-decoration: none;
+	display: block;
+	padding: 21px;
+	color: #fff;
+	font-size: 22px;
+	float: left;
+}
+
+.categories {
+	margin-right: 10px;
+}
+
+.sidebar {
+	margin-top: 10px;
+	float: left;
+	width: 15%;
+	background: #000;
+	display: flex;
+	flex-direction: column;
+	min-width: 180px;
+	margin-right: 1%;
+}
+
+.sidebar p {
+	color: #fff;
+	display: block;
+	margin: auto;
+}
+
+.sidebar ul li {
+	color: #fff;
+}
+
+.sidebar ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.sidebar ol li {
+	color: #fff;
+}
+
+.sidebar ol li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.content {
+	width: 68%;
+	float: left;
+	min-width: 200px;
+	text-align: center;
+}
+
+
+.clear {
+	clear: both;
+}
+
+#number {
+	float: right;
+	margin-right: 0;
+	margin-left: 1%;
+}
+
+.search {
+	margin: 10px;
+	width: 70%;
+	outline: none;
+	border-radius: 5px;
+	box-shadow: none; 
+}
+
+.find {
+	border-radius: 3px;
+}
+.game {
+	margin: 30px auto;
+	width: 80%;
+	background: #000;
+	height: 90px;
+	display: flex;
+}
+.gameimg {
+	margin-top: 15px;
+	margin-left: 30px;
+	float: left;
+}
+.titlegame {
+	font-size: 25px;
+	margin: auto;
+}
+.titlegame a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#game2 {
+	width: 54.5%;
+}
+
+.footer {
+	background: #000;
+	width: 100%;
+	height: 200px;
+	color: #ccc;
+}
+.copy {
+	width: 300px;
+	height: 150px;
+	float: left;
+	line-height: 200px;
+	margin-left: 35%;
+}
+.paying {
+	float: right;
+	margin-right: 25%;
+	color: #fff;
+}
